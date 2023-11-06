@@ -2,6 +2,7 @@ body {
     background-color: #C1E5D9;
     color: black;
     font-size:150%;
+    margin: 45px;
 }
 
 h1{
@@ -12,10 +13,21 @@ h1{
 
 img {
     border: 5px solid white;
-    padding: 10px;
-    margin: 20px;
+    /*padding: 10px;*/
+    /*margin: 20px;*/
     border-radius: 30px;
+    width: 100%;
 }
+
+.img-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 nav {
     height: 60px;
@@ -25,7 +37,12 @@ nav {
     color: white;
 }
 
-ul { /* problem is that it does this to all ul elements */
+nav a.current{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+nav ul { /* problem is that it does this to all ul elements */
     display: flex;
     list-style: none;
     margin: 0;
@@ -34,15 +51,18 @@ ul { /* problem is that it does this to all ul elements */
     justify-content: space-evenly;
 }
 
-nav ul li a:hover {
-    color: #ff3333; /* Change to the desired color */
+/* nav ul li a:hover {
+    color: #ff3333; Change to the desired color
     text-decoration: underline;
-}
+} */
 
-#skip:hover {
-    color: #ff3333; /* Change to the desired color */
+
+
+
+/*#skip:hover {
+    color: #ff3333;
     text-decoration: underline;
-}
+}*/
 
 @media screen and (max-width: 600px) {
     #skip {
@@ -54,9 +74,9 @@ nav ul li a:hover {
     text-align: center;
 }
 
-@media (prefers-reduced-motion: reduce) {
+/*@media (prefers-reduced-motion: reduce) {
     * {
         transition: none !important;
         animation: none !important;
     }
-}
+}*/
