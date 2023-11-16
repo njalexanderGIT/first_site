@@ -1,0 +1,92 @@
+body {
+    background-color: #C1E5D9;
+    color: black;
+    font-size:150%;
+    margin: 45px;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {
+    border: 5px solid white;
+    /*padding: 10px;*/
+    /*margin: 20px;*/
+    border-radius: 30px;
+    width: 100%;
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    height: 60px;
+    align-items: center;
+    display: flex;
+    background-color:darkslategrey;
+    color: white;
+}
+
+nav a.current{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+nav ul { /* problem is that it does this to all ul elements */
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+/* nav ul li a:hover {
+    color: #ff3333; Change to the desired color
+    text-decoration: underline;
+} */
+
+
+
+
+@media screen and (max-width: 600px) {
+    #skip {
+        display: none;
+    }
+}
+
+#skip-to-main{
+    text-align: center;
+}
+
+/*@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+        animation: none !important;
+    }
+}*/
+
+@media screen and (min-width: 800px) {
+    nav ul {
+        font-size: 30px;
+    }
+    #skip:hover {
+        color: #ff3333;
+        text-decoration: underline;
+    }
+    nav ul li a:hover {
+        color: #ff3333;
+        text-decoration: underline;
+    }
+}
