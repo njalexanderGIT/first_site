@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Vina+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <title>Pets</title>
 </head>
 <body>
@@ -13,7 +18,9 @@
     <div id = "skip-to-main"><a href= "#main" id = "skip">Skip to Main Content</a></div>
     <nav>
         <ul>
-            <li><a href="index.html">Home/Pets</a></li>
+            <li><span class="material-symbols-outlined">
+                home
+                </span><a href="index.html">Home/Pets</a></li>
             <li><a class = "current" href="recipes.html">Recipes</a></li>
             <li><a href="travel.html">Travel</a></li>
         </ul>
@@ -22,14 +29,15 @@
     <h1>Recipes</h1>
         <div>
             <h2>White Sauce Pasta</h2>
+            <div class = "recipe-grid">
             <span>Origin: France/Italy</span>
             <span>Source: Own Recipe</span>
             <span>Category: Main Dish</span>
 
-            <img src = "images/White_Sauce_Pasta.JPG" width = "400" alt = "">
+            <img src = "images/White_Sauce_Pasta.JPG" width = "400" alt = "Photo of White Sauce Pasta">
             <p>White sauce pasta is a creamy and savory dish that can be enjoyed for either lunch or dinner. Inspired by a fusion of Italian and French cuisine, the rough texture of rigatoni pasta allows for heavier sauces to be picked up, including the flavor profile of this delicious sauce. This union of two cultures allows for the perfect balance between each component of the recipe, creating a fulfilling entree that every individual can enjoy.</p>
             <h3>Recipe Ingredients</h3>
-            <ul>
+            <ul class = "centered-list">
                 <li>Olive Oil</li> 
                 <li>Butter</li> 
                 <li>Diced Onion</li> 
@@ -50,7 +58,7 @@
             </ul>
 
             <h3>Recipe Steps</h3>
-            <ol>
+            <ol class = "bullet">
                 <li>Bring a pot of water to a boil. Once the water begins to bubble, add in the pasta, salt, and a drizzle of oil.</li>
                 <li>While the pasta is cooking, heat oil and butter in a saucepan.</li>
                 <li>Once the butter has melted, add in diced onions and garlic. Sauté them until golden brown or aromatic.</li> 
@@ -61,9 +69,11 @@
                 <li>Garnish with parsley leaves, and enjoy.</li>
             </ol>
             <h3>Additional Food Images</h3>
+            <div class = "recipe-img-grid">
             <img src = "images/BoiledRigatoniPasta.jpg" width = "200" alt = "Boiled Rigatoni Pasta in a Strainer">
             <img src = "images/SauteedOnions.jpeg" width = "200" alt = "Sauteed Onions in a Pan">
             <img src = "images/WhiteSauce.jpeg" width = "200" alt = "White Sauce in a Pan">
+            </div>
 
             <!-- Lina Lin -->
         </div>
@@ -78,7 +88,7 @@
             <p>This Dead Simple Fried Rice recipe is an incredibly modular and tasty dish. At its core, it's just rice, vegetables, protein, and oil. As such, the dish can be modified to serve as many or as few people as needed with a wide variety of food preferences. Experimentation with what specific ingredients you enjoy the most will unlock the full potential of this dish.</p>
 
             <h3>Recipe Ingredients</h3>
-            <ul>
+            <ul class = "centered-list">
                 <li>Long-grain White Rice</li>
                 <li>Frozen Vegetables</li>
                 <li>Eggs</li>
@@ -92,7 +102,7 @@
             </ul>
 
             <h3>Recipe Steps</h3>
-            <ol>
+            <ol class = "bullet">
                 <li>In a rice cooker, add half a cup of rice, a cup of water, a touch of oil, and a pinch of salt. Cook the rice. Tip: If there are tough frozen veggies, such as broccoli, you might want to add the frozen veggies to the integrated steamer basket.</li>
                 <li>On high medium heat on your stovetop, add your chosen oil in a frying pan. Add some milk if desired. Then, scramble the eggs.</li>
                 <li>Before the eggs are fully cooked, add the frozen vegetables. Add fresh vegetables when required so they are fully cooked by the end. </li>
@@ -104,10 +114,11 @@
             </ol>
             
             <h3>Additional Food Images</h3>
+            <div class = "recipe-img-grid">
             <img src="images/dead-simple-fried-rice-1.jpg" width = "200" alt = "Dead Simple Fried Rice packed for lunch">
             <img src="images/dead-simple-fried-rice-2.jpg" width = "200" alt = "Another photo of the Dead Simple Fried Rice in a frying pan">
             <img src="images/dead-simple-fried-rice-3.jpg" width = "200" alt = "An additional photo of the Dead Simple Fried Rice in a frying pan">
-             
+            </div>
             <!-- Tristan Goodell -->
         </div>
         <div>
@@ -120,7 +131,7 @@
             <p>Tomato and eggs is a hot dish which originated from China. It is a simple and fast dish to make, but it has good nutritional value. It is a very satisfying food to eat and popularly served with rice and topped with green onions.</p>
 
             <h3>Recipe Ingredients</h3>
-            <ul>
+            <ul class = "centered-list">
                 <li>Tomatoes</li>
                 <li>Eggs</li>
                 <li>Salt</li>
@@ -129,7 +140,7 @@
             </ul>
             
             <h3>Recipe Steps</h3>
-            <ol>
+            <ol class = "bullet">
                 <li>Crack eggs into a bowl and mix until scrambled.</li>
                 <li>Slices tomatoes into chunks around the size of your thumb.</li>
                 <li>Oil a hot pan and cook the eggs until satisfied. Then, remove the eggs.</li>
@@ -138,10 +149,11 @@
             </ol>
             
             <h3>Additional Food Images</h3>
+            <div class = "recipe-img-grid">
             <img src="images/tomato-egg-side1.jpeg" width = "200" alt = "Tomato egg with rice">
             <img src="images/tomatoes-cooking.webp" width = "200" alt = "Tomatoes cooking on a pan">
             <img src="images/scramble-eggs.jpeg" width = "200" alt = "Scrambled eggs cooking on a pan">
-
+            </div>
             <!-- Alex Ni -->
         </div>
         

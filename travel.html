@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "css/reset.css">
     <link rel= "stylesheet" href= "css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Vina+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <title>Document</title>
 
 </head>
@@ -15,7 +20,9 @@
     <div id = "skip-to-main"><a href= "#main" id="skip">Skip to Main Content</a></div>
     <nav>
         <ul>
-            <li><a href="index.html">Home/Pets</a></li>
+            <li><span class="material-symbols-outlined">
+                home
+                </span><a href="index.html">Home/Pets</a></li>
             <li><a href="recipes.html">Recipes</a></li>
             <li><a class = "current" href="travel.html">Travel</a></li>
         </ul>
@@ -25,14 +32,15 @@
             <div>
                 <h2>San Francisco</h2>
     
-            <img src="images/San_Francisco_bridge.gif" width="400" alt="Golden Gate Bridge">
-            <img src="images/San_Francisco_bridge.jpeg" width = "400" alt="Golden Gate Bridge">
+            <img class = "gif" src="images/San_Francisco_bridge.gif" width="400" alt="Golden Gate Bridge">
+            <img class = "still" src="images/San_Francisco_bridge.jpeg" width = "400" alt="Golden Gate Bridge">
 
             <h3>Geographical Location: North America</h3>
             <p>San Francisco is a great location to visit with many landmarks, including the Golden Gate Bridge and Alcatraz. Located in Northern California, San Francisco is one of the most populated cities in California with a population of 815,000. The city is also a center of culture and industry. San Francisco is home to a thriving technology industry.</p>
             <p>San Francisco has many trails and parks where you can hike or enjoy a walk. The Presidio is a large park with hiking trails and paths surrounding the Golden Gate Bridge area. One can see picturesque views of the bay and its wildlife.</p>
 
             <h3>Photo Gallery</h3>
+            <div class="travel-grid">
             <figure>
                 <img src="images/San_Francisco_Alcatraz.jpeg" width = "200" alt="Image of the Alcatraz prison">
                 <figcaption>Alcatraz Island</figcaption>
@@ -58,12 +66,13 @@
                 <figcaption>The Palace of Fine Arts in San Francisco</figcaption>
             </figure>
             </div>
+            </div>
 
             <div>
                 <h2>Yellowstone</h2>
 
-                <img src="images/yellowstone_cauldron.gif" width="400" alt="Bubbling cauldron.">
-                <img src="images/yellowstone_cauldron.jpg" width="400" alt="Bubbling cauldron">
+                <img class = "gif" src="images/yellowstone_cauldron.gif" width="400" alt="Bubbling cauldron.">
+                <img class = "still" src="images/yellowstone_cauldron.jpg" width="400" alt="Bubbling cauldron">
 
                 <h3>Geographical Location: North America</h3>
                 <p>Yellowstone is the first national park in the United States. It covers over 2.2 million acres, and
@@ -78,6 +87,7 @@
                         href="https://cowboystatedaily.com/">Cowboy State Daily</a>.</p>
 
                 <h3>Photo Gallery</h3>
+                <div class = "travel-grid">
                 <figure>
                     <img src="images/yellowstone_travertine.JPG" width="200"
                         alt="A large mound of multi-colored travertine">
@@ -118,19 +128,22 @@
                     <figcaption>If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike.
                     </figcaption>
                 </figure>
+                </div>
+
                 <!-- Colleen van Lent -->
 
             </div>
 
             <div>
                 <h2>Zion National Park</h2>
-            <img src="images/Zion_River.jpg" alt="Zion River" width="400" height="400">
-            <img src="images/Zion_River.gif" alt="Zion River Moving" width="400" height="400">
+            <img class = "still" src="images/Zion_River.jpg" alt="Zion River" width="400" height="400">
+            <img class = "gif" src="images/Zion_River.gif" alt="Zion River Moving" width="400" height="400">
             <h3>Geographical Location: North America</h3>
     
             <p>Found in southwestern Utah, Zion National Park spreads over 229 square miles. The park is known for its sandstone cliffs, deep canyons, and vast mesas, giving it a unique beauty that everyone should try to experience . Along with this Zion offers a wide variety of Flora and Fauna that differs each season making it a hot destination all year round.</p>
             <p>Having over 112 trails available to hike, walk, and even camp at, people from all over the world are traveling to Zion to see just how amazing it truly is. With trails that range from riverside walks all the way to hikes that have you scaling long bluffs to reach a peak, Zion has something that every outdoorsman can enjoy. However it is not all sunshines and rainbows, and there are dangers that come with these trails that all hikers should read and learn about before their expedition.</p>
             <h3>Photo Gallery</h3>
+            <div class = "travel-grid">
             <figure>
                 <img src="images/Zion_Angels_Landing.jpg" alt="Angels Landing hike from afar" width="200" height="200">
                 <figcaption>One of the most popular (and dangerous) hikes Zion has to offer </figcaption>
@@ -155,20 +168,21 @@
                 <img src="images/Zion_Winter.jpg" alt="Zion in the Winter" width="200" height="200">
                 <figcaption>Zion in the winter offers different but just as amazing views</figcaption>
             </figure>
+            </div>
             <!-- Brady Haisfield -->
             </div>
 
             <div>
                 <h2>Jungfrau Switzerland</h2>
-                <img src=images/jungfrau-helicopter.gif width="400" height="300" alt="Helicoper in Jungfrau.">
-                <img src=images/jungfrau-summit.jpeg width = "400" height="300" alt="Top of jungfrau">
+                <img class = "gif" src=images/jungfrau-helicopter.gif width="400" height="300" alt="Helicoper in Jungfrau.">
+                <img class = "still" src=images/jungfrau-summit.jpeg width = "400" height="300" alt="Top of jungfrau">
         
                 <h3>Geographical Location: Europe</h3>
                 <p>Jungfrau is a city in Switzerland known for its mountain summits nicknamed the “top of Europe.” It is very famous also for its railway created in 1912 that can bring you to a height of 3454m. At the summit there are outstanding views where you can see the whole city and beyond.</p>
                 <p>The scenery consists of valleys, waterfalls, rock walls, and snow peaks. When visiting, it is vital to go on a day with good weather because it enhances the quality of the views. Hiking is very popular at short trails called Grutschalp and Murren. A very common tourist attraction is also exploring the Lauterbrunnen valley.</p>
         
                 <h3>Photo Gallery</h3>
-        
+                <div class = "travel-grid">
                 <figure>
                     <img src=images/jungfrau_summit_building.jpg width = "200" alt="Tourists can take the train and elevator up to that building on summit">
                     <figcaption>Jungfrau building summit</figcaption>
@@ -193,7 +207,7 @@
                     <img src=images/jungfrau_lookout.jpg width = "200" alt="Tourists can go to the spot to look out over the country">
                     <figcaption>Lookout point at Jungfrau</figcaption>
                 </figure>
-        
+            </div>
                 <!-- Daniel Saltzman -->
             </div>
 
